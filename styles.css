@@ -1,0 +1,179 @@
+*{
+    font-family: 'roboto';
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 200px;
+    background-color: #1f2937;
+    color: white;
+}
+
+.header h2 {
+    font-size: 24px;
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+}
+
+.links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.content1{
+    display: flex;
+    padding: 50px;
+    padding-inline: 200px;
+    background-color: #1f2937;
+}
+
+.content2{
+    display: flex;
+    padding: 50px;
+    padding-inline: 200px;
+    background-color: #ffffff;
+}
+
+.content3{
+    display: flex;
+    padding: 50px;
+    padding-inline: 200px;
+    background-color: #e5e7eb;
+    flex-direction: column;
+}
+
+.first{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.first h1{
+    justify-content: top;
+    color: #f9faf8;
+    font-size: 48px;
+    padding-right: 100px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.first p{
+    color: #e5e7eb;
+    font-size: 20px;
+    padding-right: 60px;
+    margin: 0;
+}
+
+.first button{
+    border-radius: 10px;
+    background-color: #3882f6;
+    border: none;
+    color: white;
+    width: 100px;
+    padding: 8px;
+    margin-top: 10px;
+}
+
+.image{
+    width: 50%;
+   height: 300px;
+}
+
+.second{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+
+.card div{
+    width: 100px;
+    height: fit-content;
+    font-size: 10px;
+    text-align: center;
+}
+
+.card .box{
+    width: 100px;
+    height: 100px;
+    border: #3882f6 solid 3px;
+    border-radius: 10px;
+    
+}
+
+.quote{
+    font: 32px;
+    font-style: italic;
+    font-weight: 340;
+    padding-inline: 100px;
+    margin: 0;
+}
+
+.signature{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    font-weight: 800;
+    padding-inline: 100px;
+}
+
+.wrapper{
+    padding: 60px;
+}
+
+.wrap{
+    color: white;
+    background-color: #3882f6;
+    border-radius: 10px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.wrap div{
+    padding: 30px;
+}
+
+.cta{
+    color: white;
+    background-color: #3882f6;
+    border: #e5e7eb solid 2px;
+    width: 80px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    background-color: #1f2937;
+    justify-content: center;
+}
+
+.footer p {
+    color: white;
+    font-size: 18px;
+}
